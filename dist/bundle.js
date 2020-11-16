@@ -1,0 +1,1 @@
+(()=>{"use strict";function o(o,n){return o+n}console.log(o(4,5)),console.log(o(5,5)),console.log(o(5,-5)),document.getElementById("btn1").addEventListener("click",(function(){console.log("Button was clicked!")}))})();
