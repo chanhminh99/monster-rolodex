@@ -1,11 +1,9 @@
-import sum from './sum'
+import React from 'react'
+import ReactDOM from 'react-dom'
+import App from './App'
 
-console.log(sum(4, 5))
-console.log(sum(5, 5))
-console.log(sum(5, -5))
+const title = 'React with webpack and babel project'
 
-const btn = document.getElementById('btn1')
+ReactDOM.render(<App title={title} />, document.querySelector('#app'))
 
-btn.addEventListener('click', () => {
-  console.log('Button was clicked!')
-})
+module.hot.accept()

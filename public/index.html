@@ -3,13 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title><%= htmlWebpackPlugin.options.title %></title>
   </head>
   <body>
-    <div>
-      <h1>WebPack Project</h1>
-      <button id="btn1">Click me</button>
-    </div>
-    <script src="./bundle.js"></script>
+    <h1><%= htmlWebpackPlugin.options.title %></h1>
+    <div id="app"></div>
   </body>
 </html>
